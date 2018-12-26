@@ -1,8 +1,10 @@
-package io.gitbooks.abhirockzz.jwah.chat;
+package websocket.chat;
 
-import io.gitbooks.abhirockzz.jwah.chat.internal.*;
-import io.gitbooks.abhirockzz.jwah.chat.model.*;
-import io.gitbooks.abhirockzz.jwah.chat.connection.MessagesDao;
+import websocket.chat.connection.MessagesDao;
+import websocket.chat.internal.MessageEncoder;
+import websocket.chat.internal.UserListEncoder;
+import websocket.chat.model.Message;
+import websocket.chat.model.UserList;
 
 import java.util.List;
 import java.util.Set;

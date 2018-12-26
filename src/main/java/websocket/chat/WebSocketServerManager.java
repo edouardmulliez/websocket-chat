@@ -1,4 +1,4 @@
-package io.gitbooks.abhirockzz.jwah.chat;
+package websocket.chat;
 
 import java.util.Optional;
 import java.util.concurrent.CountDownLatch;

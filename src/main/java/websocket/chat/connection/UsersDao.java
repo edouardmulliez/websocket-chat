@@ -1,4 +1,4 @@
-package io.gitbooks.abhirockzz.jwah.chat.connection;
+package websocket.chat.connection;
 
 import java.sql.*;
 import org.apache.commons.dbutils.DbUtils;
@@ -65,15 +65,4 @@ public class UsersDao extends Dao {
         }
         return false;
     }
-
-    public static void main(String[] args){
-
-        addUser("triss", "trissPassword");
-
-        System.out.println("Is triss in DB? " + isUserInDb("triss"));
-        System.out.println("triss trissPass? " + isPasswordValid("triss", "trissPass"));
-        System.out.println("triss trissPassword? " + isPasswordValid("triss", "trissPassword"));
-    }
-
-
 }

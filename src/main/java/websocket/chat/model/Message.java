@@ -1,4 +1,4 @@
-package io.gitbooks.abhirockzz.jwah.chat.model;
+package websocket.chat.model;
 
 import java.sql.Time;
 import java.util.Date;

@@ -1,6 +1,6 @@
-package io.gitbooks.abhirockzz.jwah.chat.internal;
+package websocket.chat.internal;
 
-import io.gitbooks.abhirockzz.jwah.chat.model.Message;
+import websocket.chat.model.Message;
 
 import javax.websocket.EncodeException;
 import javax.websocket.Encoder;

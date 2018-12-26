@@ -1,4 +1,4 @@
-package io.gitbooks.abhirockzz.jwah.chat;
+package websocket.chat;
 
 import java.io.IOException;
 import java.net.URI;
@@ -132,10 +132,7 @@ public class ChatServerTest {
         String publicMsg = "hey everyone!!";
         gitu.sendMessage(publicMsg); //send public message to ALL
         assertTrue(controlLatch.await(5, TimeUnit.SECONDS)); // wait for message to be received
-
         TimeUnit.SECONDS.sleep(1);
-
-        System.out.println(abhi.getMessages());
 
         assertTrue(abhi.getMessages().stream().anyMatch(msg -> msg.contains(publicMsg)));
 

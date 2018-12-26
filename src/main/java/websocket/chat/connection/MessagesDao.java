@@ -1,6 +1,6 @@
-package io.gitbooks.abhirockzz.jwah.chat.connection;
+package websocket.chat.connection;
 
-import io.gitbooks.abhirockzz.jwah.chat.model.Message;
+import websocket.chat.model.Message;
 
 import org.apache.commons.dbutils.DbUtils;
 import java.sql.*;

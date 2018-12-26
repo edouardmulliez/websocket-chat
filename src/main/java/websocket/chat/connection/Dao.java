@@ -1,4 +1,4 @@
-package io.gitbooks.abhirockzz.jwah.chat.connection;
+package websocket.chat.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

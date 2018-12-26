@@ -1,10 +1,10 @@
-package io.gitbooks.abhirockzz.jwah.chat.internal;
+package websocket.chat.internal;
 
 import javax.websocket.EncodeException;
 import javax.websocket.Encoder;
 import javax.websocket.EndpointConfig;
 
-import io.gitbooks.abhirockzz.jwah.chat.model.UserList;
+import websocket.chat.model.UserList;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
