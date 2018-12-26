@@ -1,6 +1,7 @@
 # Intellij
 .DS_Store
 .idea
+*.iml
 
 # Maven
 target/
@@ -26,6 +27,9 @@ buildNumber.properties
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+# Resources, properties
+resources/
 
 # Package Files #
 *.jar

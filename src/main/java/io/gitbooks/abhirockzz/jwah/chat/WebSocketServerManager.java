@@ -17,7 +17,6 @@ public final class WebSocketServerManager {
 
         server.start();
 
-        
         if (autoShutDown) {
             Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
                 @Override
@@ -29,9 +28,7 @@ public final class WebSocketServerManager {
             }));
 
             System.out.print("Shutdown hook added");
-
         }
-
     }
 
     public void stop() {
@@ -39,7 +36,6 @@ public final class WebSocketServerManager {
     }
 
     public static void main(String[] args) throws Exception {
-
         new WebSocketServerManager().runServer(true);
         new CountDownLatch(1).await();
     }
